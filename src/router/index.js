@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../Home.vue'
 import MeetTheCEO from '../MeetTheCEO.vue'
 import TaxServices from '../TaxServices.vue'
-import Bookkeeping from '../Bookkeeping.vue'
+import BookKeeping from '../BookKeeping.vue'
 import Contact from '../Contact.vue'
 
 const routes = [
@@ -24,7 +24,7 @@ const routes = [
   {
     path: '/bookkeeping',
     name: 'Bookkeeping',
-    component: Bookkeeping
+    component: BookKeeping
   },
   {
     path: '/contact',
